@@ -12,13 +12,8 @@ import static org.hamcrest.CoreMatchers.is;
 public class GreetingResourceTest {
 
     @Test
-    public void testHelloEndpoint1() {
-        try {
+    public void testHelloEndpoint1() throws Exception {
             throw new Exception();
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
     }
 
     @Test
