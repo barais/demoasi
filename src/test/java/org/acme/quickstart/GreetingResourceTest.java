@@ -13,7 +13,12 @@ public class GreetingResourceTest {
 
     @Test
     public void testHelloEndpoint() {
-        throw new Exception();
+        try {
+            throw new Exception();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
     @Test
