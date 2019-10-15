@@ -13,6 +13,11 @@ public class GreetingResourceTest {
 
     @Test
     public void testHelloEndpoint() {
+        throw new Exception();
+    }
+
+    @Test
+    public void testHelloEndpoint() {
         given()
           .when().get("/hello")
           .then()
