@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.is;
 public class GreetingResourceTest {
 
     @Test
-    public void testHelloEndpoint() {
+    public void testHelloEndpoint1() {
         try {
             throw new Exception();
         } catch (Exception e) {
